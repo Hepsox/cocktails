@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Sex on the beach",
+        "price": 10,
+        "img": "https://picsum.photos/seed/picsum/200/300"
+    },
+    {
+        "name": "Marguarita",
+        "price": 13,
+        "img": "https://picsum.photos/200"
+    },
+    {
+        "name": "Martini",
+        "price": 8,
+        "img": "https://picsum.photos/200"
+    }
+]

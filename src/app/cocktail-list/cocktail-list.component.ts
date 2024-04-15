@@ -12,7 +12,9 @@ export class CocktailListComponent {
 
   private cocktailService = inject(CocktailService);
 
-  onClick() {
-    this.cocktails = this.cocktailService.getCocktails();
+  ngOnInit(): void {
+    this.cocktailService.getCocktails().subscribe((cocktailsFromJsonFile) => {
+      this.cocktails = cocktailsFromJsonFile;
+    });
   }
 }

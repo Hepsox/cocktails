@@ -1,4 +1,4 @@
 <div *ngFor="let cocktail of cocktails">
   {{ cocktail.name }} {{ cocktail.price | currency }}
+  <img [src]="cocktail.img" alt="" />
 </div>
-<button (click)="onClick()">coucou bouton</button>
